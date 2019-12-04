@@ -6,13 +6,31 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
-
-    <Button
-        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="moveThirdActivity"
+            android:text="@string/btnImage" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="moveSecondActivity"
+            android:text="@string/buttonMusic" />
+
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="moveInputActivity"
+            android:text="@string/option" />
+    </LinearLayout>
+
 </LinearLayout>

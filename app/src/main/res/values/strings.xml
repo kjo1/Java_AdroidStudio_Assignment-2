@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">Assignment2</string>
+    <string name="app_name">Time to Shine!</string>
+    <string name="txtSpeed">Speed :</string>
+    <string name="togglebutton">Night Mode</string>
+    <string name="txtSound">Sound</string>
+    <string name="rdEasy">Easy</string>
+    <string name="rdNormal">Normal</string>
+    <string name="rdHard">Hard</string>
+    <string name="txtRating">"Game Rating: "</string>
+    <string name="checkbox">God Mode</string>
+    <string name="button">Go Back</string>
+    <string name="switch1">Setting</string>
+    <string name="option">Option</string>
+    <string name="menuImage">Image</string>
+    <string name="menuMusic">Music</string>
+    <string name="btnImage">Image</string>
+    <string name="sound_off">Sound OFF</string>
+    <string name="sound_on">Sound On</string>
+    <string name="txtDifficulty">TextView\t    RatingBar rate = (RatingBar) findViewById(R.id.ratebar1); \t    rate.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() { \t\t\tpublic void onRatingChanged(RatingBar ratingBar, float rating,boolean fromTouch) { \t\t\t\t((TextView)findViewById(R.id.rating_text)).setText(\"Rating: \"+ rating); \t\t\tDifficulty</string>
+    <string name="txtDiff">"Difficulty: "</string>
+    <string name="buttonMusic">Music</string>
+    <string name="buttonRatingSubmit">Submit</string>
+    <string name="textviewToggle">Sound</string>
+    <string name="textviewSwitch">Switch</string>
+    <string name="Feedback">Feedback</string>
+    <string name="buttonFeedback">Send Feedback</string>
+    <string name="type_feedback">Type Feedback</string>
+    <string name="image">imageNC</string>
+    <string name="buttonImage">Before / After</string>
+    <string name="textviewBy">After Image created by Kanghyun Jo (CPA)</string>
+    <string name="textviewInfo">Click BEFORE / AFTER button to change the image.</string>
+    <string name="buttonPlay">Play</string>
+    <string name="buttonPause">Pause</string>
+    <string name="buttonStop">Stop</string>
 </resources>

@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:contentDescription="@string/image"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/before" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changeImage"
+            android:text="@string/buttonImage" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textviewInfo" />
+
+        <ImageView
+            android:id="@+id/imgMain2"
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:contentDescription="@string/image"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/before" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textviewBy"
+        android:textAlignment="textEnd"
+        android:textSize="10sp" />
 
 </LinearLayout>
